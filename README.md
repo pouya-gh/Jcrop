@@ -1,6 +1,6 @@
 # Jcrop
 
-TODO: Write a gem description
+A gem for adding [Jcrop(2.0.4)](https://github.com/tapmodo/Jcrop) library to your Rails project.
 
 ## Installation
 
@@ -18,13 +18,23 @@ Or install it yourself as:
 
     $ gem install Jcrop
 
-## Usage
+Then add this line to your **application.js** file:
 
-TODO: Write usage instructions here
+```javascript
+//= require Jcrop
+```
+
+And this line to your **application.css** file:
+
+```scss
+/*
+*= require Jcrop
+*/
+```
 
 ## Contributing
 
-1. Fork it ( https://github.com/[my-github-username]/Jcrop/fork )
+1. Fork it ( https://github.com/psparabara/Jcrop/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
