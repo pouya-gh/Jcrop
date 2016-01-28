@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["p.gharibpour@gmail.com"]
   spec.summary       = %q{Jcrop library.}
   spec.description   = %q{A gem for adding Jcrop library to your Rails project.}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/psparabara/Jcrop"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
